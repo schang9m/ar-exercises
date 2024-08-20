@@ -8,4 +8,4 @@ puts "----------"
 # Your code goes here ...
 @store3 = Store.find(3)
 @store3.destroy
-puts "There are #{Stores.count} stores."
+puts "There are #{Store.count} stores."
